@@ -55,4 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'pg', '0.21.0'
 end
-
+# 楽天SDK
+gem 'rakuten_web_service' , '1.5.0'
+# 環境変数　変更
+gem 'dotenv-rails'
